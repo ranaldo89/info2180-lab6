@@ -6,44 +6,44 @@
  padding-bottom: 200px;
  grid-area: blank;
 }
-.blank1{
+.space1{
     padding-bottom: 50px;
-    grid-area: blank1;
+    grid-area: space1;
    }
-.blank2{
+.space2{
     padding-bottom: 50px;
-    grid-area: blank2;
+    grid-area: space2;
    }   
-.blank3{
+.space3{
     padding-bottom: 50px;
-    grid-area: blank3;
+    grid-area: space3;
    }
-.blank4{
+.space4{
     padding-left: 300px;
-    grid-area: blank4;
+    grid-area: space4;
    }
-.blank5{
+.space5{
     padding-bottom: 200px;
-    grid-area: blank5;
+    grid-area: space5;
    }
-.blank6{
+.space6{
     padding-bottom: 200px;
-    grid-area: blank6;
+    grid-area: space6;
    }
-.blank7{
+.space7{
     padding-bottom: 200px;
-    grid-area: blank7;
+    grid-area: space7;
    }
-.blank8{
+.space8{
     padding-bottom: 200px;
-    grid-area: blank8;
+    grid-area: space8;
    }
 body{
     display: grid;
     grid-template-areas: 
-    'blank1 blank2 blank3'
-    'blank4 body  blank5'
-    'blank6 blank7 blank8';
+    'space1 space2 space3'
+    'space4 body  space5'
+    'space6 space7 space8';
 }
 .body{
     display: grid;
@@ -82,7 +82,7 @@ body{
     background: #7395AE;    
     text-align: center;
     align-items: center;
-    color: white;
+    color: #0000FF;
     height: 100px;
     }
 body{
@@ -128,5 +128,4 @@ body{
   }
 
   p{
-      font-weight: bold;
-  }
+      font-weight: boldspace

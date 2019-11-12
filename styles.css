@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    
+}
+.blank{
+ padding-bottom: 200px;
+ grid-area: blank;
+}
+.blank1{
+    padding-bottom: 50px;
+    grid-area: blank1;
+   }
+.blank2{
+    padding-bottom: 50px;
+    grid-area: blank2;
+   }   
+.blank3{
+    padding-bottom: 50px;
+    grid-area: blank3;
+   }
+.blank4{
+    padding-left: 300px;
+    grid-area: blank4;
+   }
+.blank5{
+    padding-bottom: 200px;
+    grid-area: blank5;
+   }
+.blank6{
+    padding-bottom: 200px;
+    grid-area: blank6;
+   }
+.blank7{
+    padding-bottom: 200px;
+    grid-area: blank7;
+   }
+.blank8{
+    padding-bottom: 200px;
+    grid-area: blank8;
+   }
+body{
+    display: grid;
+    grid-template-areas: 
+    'blank1 blank2 blank3'
+    'blank4 body  blank5'
+    'blank6 blank7 blank8';
+}
+.body{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'lefty centre righty';  
+    grid-template-columns: auto auto auto;  
+    grid-template-rows: 100px 100px auto;
+    background: white;    
+    right: 100px;
+    opacity: 1;
+    vertical-align: baseline;
+    top: 0;
+    grid-area: body;
+    width: 700px;
+    height: 700px;
+   
+}
+.lefty{
+    grid-area: lefty;
+}
+.righty{
+    grid-area: righty
+}
+.central{
+    grid-area: centre;    
+    display:block;
+    justify-content: center;
+}
+.central > div{
+    padding-bottom: 50px;
+}
+
+.Header{
+    grid-area: header;
+    background: #7395AE;    
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+    }
+body{
+    background-image: url("avengers.jpg");
+    max-width: 500px;
+    height: 100px;
+}
+.searchbar {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 1px solid rgb(192, 189, 189);
+    box-shadow: 1px 1px rgb(192, 189, 189) ;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+.Results{    
+    border-bottom: 2px solid rgb(187, 187, 187);
+}
+  .searchButton {
+    width: 90px;
+    height: 36px;
+    border: 3px solid rgb(255, 74, 74);
+    background: rgb(255, 0, 0);
+    text-align: center;
+    color: rgb(255, 0, 0);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 1px 1px rgb(255, 74, 74) ;
+  }
+
+  p{
+      font-weight: bold;
+  }
